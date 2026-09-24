@@ -4,7 +4,6 @@ VS computador"""
 import random
 
 computador = random.choice(["pedra", "papel", "tesoura"])
-
 jogador = input("Escolha: pedra, papel ou tesoura? ").lower()
 
 if jogador == computador:

@@ -11,7 +11,7 @@ ou renda_mensal superior a 6000.00).
 import random
 
 renda_mensal = float(input("Digte sua renda mensal: "))
-score = random.randint(0, 1000)
+score = random.randint(0, 1000)  # Pontuação de 0 a 1.000
 possui_restricao = random.choice([True, False])
 
 if possui_restricao:

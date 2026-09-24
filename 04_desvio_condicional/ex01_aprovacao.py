@@ -7,6 +7,6 @@ nota1 = float(input("Digite a primeira nota escolar: "))
 nota2 = float(input("Digite a segunda nota escolar: "))
 
 if (nota1 + nota2) / 2 < 6:
-    print("\nAluno Reprovado!")
+    print("\nAluno Reprovado.")
 else:
-    print("\nAluno Aprovado.")
+    print("\nAluno Aprovado!")

@@ -8,15 +8,23 @@ Isósceles ou Escaleno.
 ◆ Se as medidas não formarem um triângulo, exiba uma mensagem de
 erro."""
 
-a = float(input("Digite o lado A do triângulo: "))
-b = float(input("Digite o lado B do triângulo: "))
-c = float(input("Digite o lado C do triângulo: "))
-if not a + b > c and a + c > b and b + c > a and a > 0 and b > 0 and c > 0:
+lado_a = float(input("Digite o lado A do triângulo: "))
+lado_b = float(input("Digite o lado B do triângulo: "))
+lado_c = float(input("Digite o lado C do triângulo: "))
+
+if (
+    not lado_a + lado_b > lado_c
+    and lado_a + lado_c > lado_b
+    and lado_b + lado_c > lado_a
+    and lado_a > 0
+    and lado_b > 0
+    and lado_c > 0
+):
     print("\nErro\nAs medidas não formam um triângulo real.")
 else:
-    if a == b == c:
+    if lado_a == lado_b == lado_c:
         print("\nTodos os lados são iguais.\nÉ um triângulo equilátero.")
-    elif a == b or a == c or b == c:
+    elif lado_a == lado_b or lado_a == lado_c or lado_b == lado_c:
         print("\nDois lados são iguais.\nÉ um triângulo isósceles.")
     else:
         print("\nTodos os lados são diferentes.\nÉ um triângulo escaleno.")
