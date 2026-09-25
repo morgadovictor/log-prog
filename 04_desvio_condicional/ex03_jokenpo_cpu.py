@@ -7,7 +7,7 @@ computador = random.choice(["pedra", "papel", "tesoura"])
 jogador = input("Escolha: pedra, papel ou tesoura? ").lower()
 
 if jogador == computador:
-    print("\nE é um empate senhores")
+    print("\nE é um empate senhores.")
 elif (
     jogador == "pedra"
     and computador == "tesoura"
@@ -25,4 +25,4 @@ elif (
     or computador == "tesoura"
     and jogador == "papel"
 ):
-    print("\nO computador venceu!")
+    print("\nO computador venceu.")

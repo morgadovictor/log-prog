@@ -5,7 +5,7 @@ jogador1 = input("Jogador 1 - Escolha: pedra, papel ou tesoura? ").lower()
 jogador2 = input("Jogador 2 - Escolha: pedra, papel ou tesoura? ").lower()
 
 if jogador1 == jogador2:
-    print("\nE é um empate senhores")
+    print("\nE é um empate senhores.")
 elif (
     jogador1 == "pedra"
     and jogador2 == "tesoura"
@@ -14,7 +14,7 @@ elif (
     or jogador1 == "tesoura"
     and jogador2 == "papel"
 ):
-    print("\nO jogador 1 venceu!")
+    print("\nO player 01 venceu!")
 elif (
     jogador1 == "pedra"
     and jogador2 == "papel"
@@ -23,4 +23,4 @@ elif (
     or jogador1 == "tesoura"
     and jogador2 == "pedra"
 ):
-    print("\nO jogador 2 venceu!")
+    print("\nO player 02 venceu!")

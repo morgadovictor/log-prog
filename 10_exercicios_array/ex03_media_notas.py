@@ -5,12 +5,15 @@ e quais notas ficaram estritamente acima da média calculada."""
 notas = []
 
 for i in range(6):
+    # Laço para pedir as notas ao usuário e os guardar na lista.
     notas.append(float(input(f"Digite a {i + 1}º nota: ")))
 
 media = sum(notas) / len(notas)
 print(f"\nMédia: {media:.2f}")
+
 acima_media = [nota for nota in notas if nota > media]
 print(f"Quantidade de notas acima da média: {len(acima_media)}\n")
 
 for nota in acima_media:
+    # Laço para mostrar as notas acima da média.
     print(nota)
