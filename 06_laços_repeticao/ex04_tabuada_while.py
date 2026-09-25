@@ -3,7 +3,6 @@ mostrará, na tela, a tabuada de multiplicação deste número.
 Use While"""
 
 numero = float(input("Digite um número: "))
-
 i = 0
 
 while i <= 10:
