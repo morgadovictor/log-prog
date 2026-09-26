@@ -31,6 +31,7 @@ for i in range(qtd_notas):
         else:
             print("\nA nota digitada não está entre 0 e 10.")
             # O WHILE se repete até o usuário digitar uma nota válida
+
 print(f"\n{len(notas)} nota(s) escolare(s) inserida(s).\n")
 
 for nota in notas:

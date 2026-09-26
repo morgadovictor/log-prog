@@ -28,6 +28,7 @@ while True:
         )
     if continuar == "n":
         break
+
 print(f"\n{len(notas)} nota(s) escolare(s) inserida(s).\n")
 
 for nota in notas:

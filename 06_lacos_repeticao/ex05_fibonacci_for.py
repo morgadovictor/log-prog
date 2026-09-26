@@ -6,7 +6,6 @@ anterior = 0  # Número anterior
 atual = 1  # Número atual
 
 print(anterior)
-
 # Definimos um range generoso apenas para gerar as repetições do loop
 for _ in range(2000):
     if atual > 2000:
